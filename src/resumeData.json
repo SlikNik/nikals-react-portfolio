@@ -105,33 +105,33 @@
   "portfolio": {
     "projects": [
       {
-        "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
+        "title": "Bug Tracker",
+        "category": "Bug Tracker built with Django",
+        "image": "bugtracker.png",
         "url": "https://www.youtube.com/watch?v=gzdQDxzW2Tw"
       },
       {
-        "title": "MERN Stack TikTok Clone",
-        "category": "TikTok Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "tiktok-mern.jpeg",
+        "title": "Connect Four",
+        "category": "Connect Four remake with HTML/CSS/JS",
+        "image": "connect4.png",
         "url": "https://www.youtube.com/watch?v=g8yGxDMyGiE"
       },
       {
-        "title": "Facebook Clone with React",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "facebook-clone.png",
+        "title": "GhostPost",
+        "category": "Reddict Clone with Django",
+        "image": "ghostpost.png",
         "url": "https://www.youtube.com/watch?v=B-kxUMHBxNo"
       },
       {
-        "title": "Airbnb Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "airbnb-clone.jpeg",
+        "title": "Kwitter",
+        "category": "Twitter Clone built with ReactJS",
+        "image": "kwitter.png",
         "url": "https://www.youtube.com/watch?v=BtJeH_-XYaA"
       },
       {
-        "title": "Netflix Clone",
-        "category": "Facebook Clone built with ReactJS",
-        "image": "netflix-clone.jpeg",
+        "title": "Tower of Hanoi",
+        "category": "Tower of Hanoi with HTML/CSS/JS",
+        "image": "toh.png",
         "url": "https://www.youtube.com/watch?v=XtMThy8QKqU&t=9358s"
       }
     ]
