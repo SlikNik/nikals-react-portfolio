@@ -37,31 +37,31 @@ const Contact = ({ data }) => {
          <div className="row">
             <div className="eight columns">
 
-               <form id="contactForm" name="contactForm">
+               <form id="contactForm" name="contactForm" method="POST" action="https://simple-form.com/nikalmorgan11@gmail.com">
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input value={name} type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)}/>
+						   <label htmlFor="name">Name <span className="required">*</span></label>
+						   <input value={name} type="text" defaultValue="" size="35" id="contactName" name="name" onChange={e => setName(e.target.value)}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input value={email} type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={e=> setEmail(e.target.value)}/>
+						   <label htmlFor="replyTo">Email <span className="required">*</span></label>
+						   <input value={email} type="text" defaultValue="" size="35" id="contactEmail" name="replyTo" onChange={e=> setEmail(e.target.value)}/>
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input value={subject} type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)}/>
+						   <label htmlFor="subject">Subject</label>
+						   <input value={subject} type="text" defaultValue="" size="35" id="subject" name="subject" onChange={e => setSubject(e.target.value)}/>
                   </div>
 
                   <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea value={message} onChange={e => setMessage(e.target.value)} cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <label htmlFor="message">Message <span className="required">*</span></label>
+                     <textarea value={message} onChange={e => setMessage(e.target.value)} cols="50" rows="15" id="contactMessage" name="message"></textarea>
                   </div>
 
                   <div>
-                     <button type='submit' onClick={handleClick} className="submit">Submit</button>
+                     <button type='submit' className="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
